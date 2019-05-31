@@ -1,0 +1,377 @@
+    html, body, div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    abbr, address, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,
+    b, i,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {
+        margin:0;
+        padding:0;
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+    }
+
+    body {
+        line-height:1;
+    }
+
+    article,aside,details,figcaption,figure,
+    footer,header,hgroup,menu,nav,section { 
+        display:block;
+    }
+
+    nav ul {
+        list-style:none;
+    }
+
+    blockquote, q {
+        quotes:none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content:'';
+        content:none;
+    }
+
+    a {
+        margin:0;
+        padding:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+    }
+
+    /* change colours to suit your needs */
+    ins {
+        background-color:#ff9;
+        color:#000;
+        text-decoration:none;
+    }
+
+    /* change colours to suit your needs */
+    mark {
+        background-color:#ff9;
+        color:#000; 
+        font-style:italic;
+        font-weight:bold;
+    }
+
+    del {
+        text-decoration: line-through;
+    }
+
+    abbr[title], dfn[title] {
+        border-bottom:1px dotted;
+        cursor:help;
+    }
+
+    table {
+        border-collapse:collapse;
+        border-spacing:0;
+    }
+
+    /* change border colour to suit your needs */
+    hr {
+        display:block;
+        height:1px;
+        border:0;   
+        border-top:1px solid #cccccc;
+        margin:1em 0;
+        padding:0;
+    }
+
+    input, select {
+        vertical-align:middle;
+    }
+
+    /* MY CODE */
+
+    *{
+        text-decoration: none;
+    }
+
+    body{
+        background-color: #f3f3f3;
+    }
+
+    hr { 
+        display: block;
+        overflow: hidden;
+        border-style: inset;
+        border-width: 1px;
+        margin-left: 50px;
+        margin-right: auto;
+        width: 60%;
+        margin-top: auto;
+        height: 100%;
+        background-color: #A9A9A9;
+        opacity: 0.4;
+    }
+
+    .who-am-i{
+        background-color: #191919;
+        padding: 80px 0px;
+    }
+
+    .my-work-body h1{
+        font-family: Courier New;
+        font-size: 50px;
+        font-weight: 200;
+        color: white;
+        text-transform: uppercase;
+        padding: 50px 50px 50px;
+    }
+
+    .my-work-body p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: white;
+        padding: 0px 50px 60px;
+        line-height: 20px;
+    }
+
+    .language-body h2{
+        font-family: Courier New;
+        font-size: 28px;
+        font-weight: 300;
+        color: white;
+        padding: 50px 50px 20px;
+    }
+
+    .language-body ul li{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: white;
+        position: relative;
+        left: 10%;
+        padding: 0px 0px 10px;
+    }
+
+    .future-ventures-body h2{
+        font-family: Courier New;
+        font-size: 28px;
+        font-weight: 300;
+        color: white;
+        padding: 50px 50px 20px;
+    }
+
+    .future-ventures-body ul li {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: white;
+        position: relative;
+        left: 10%;
+        padding: 0px 0px 10px;
+    }
+
+    .projects-body h2 {
+        font-family: Courier New;
+        font-size: 28px;
+        font-weight: 300;
+        color: white;
+        padding: 50px 50px 20px;
+    }
+
+    .projects-body ul li {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: white;
+        position: relative;
+        left: 10%;
+        padding: 0px 0px 10px;
+    }
+
+    /*
+    .who-am-i h1{
+        font-family: Courier New;
+        font-size: 50px;
+        font-weight: 200;
+        color: white;
+        text-transform: uppercase;
+        padding: 50px 50px 50px;
+    }
+    */
+
+    /*
+    .who-am-i h2{
+        font-family: Courier New;
+        font-size: 28px;
+        font-weight: 300;
+        color: white;
+        padding: 40px 30px 10px;
+    }
+    */
+
+    /*
+    .who-am-i p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: white;
+        padding: 0px 50px 60px;
+        line-height: 20px;
+    }
+    */
+
+    /*
+    .who-am-i ul li{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: white;
+        position: relative;
+        left: 10%;
+        padding: 0px 0px 10px;
+    }
+    */
+
+    header{
+        background-color: #fff;
+        width: 100%;
+        height: 100px;
+        position: relative;
+    }
+
+    /*header font "Welcome To My Page" */
+    header .header-brand {
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: 800;
+        color: #111;
+        text-transform: uppercase;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    header nav ul{
+        /*centers the navigation block within the content*/
+        display: block;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    header nav ul li{
+        /* display: inline-block puts the text next to each other
+        padding spreads how far apart the text is from each other
+        */
+        display: inline-block;
+        list-style: none;
+        padding: 0px 20px;
+    }
+
+    /* this block changes the text style and color of the links */
+    header nav ul li a{
+        font-family: Courier New;
+        font-size: 13px;
+        color: #111;
+    }
+
+    footer{
+        background-color: #282828;
+    }
+
+    footer nav ul li{
+        display: inline-block;
+        list-style: none;
+        padding: 20px 20px;
+    }
+
+    footer nav ul{
+        display: block;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    footer h2{
+        font-family: Courier New;
+        font-size: 28px;
+        font-weight: 400;
+        color: white;
+        margin: 0 auto;
+        width: fit-content;
+        padding: 20px 0px 0px;
+    }
+
+    .index-banner{
+        width: 100%;
+        height: 100vh;
+        background-image: url(img/weddingPic.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: table;
+    }
+
+    .vertical-center{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .index-banner h1{
+        font-family: Courier New;
+        font-size: 60px;
+        font-weight: 500;
+        color: #FFFAFA;
+        text-align: center;
+        text-shadow: 1px 1px #111;
+    }
+
+    .index-banner h2{
+        font-family: Cormorant Garamond;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        color: #FFFAFA;
+        text-align: center;
+        line-height: 40px;
+        text-shadow: 1px 1px #111;
+    }
+
+    .box{ 
+        border: 2px solid #3498db;
+        display: block;
+        margin: 40px auto;
+        text-align: center;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        border-radius: 20px;
+    }
+
+    .box a{
+        color: black;
+        font-family: Courier New;
+    }
+
+    .fa{
+        padding: 5px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+
+    .fa-facebook{
+    background: #3B5998;
+    color: white;
+    }
+
+    .fa-instagram{
+    background: #125688;
+    color: white;
+    }
+
+    .fa-linkedin{
+    background: #007bb5;
+    color: white;
+    }
