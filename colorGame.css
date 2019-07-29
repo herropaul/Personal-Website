@@ -11,8 +11,9 @@ header{
 }
 
 .menu{
-    margin: 1.66%;
-    padding: 1.66%;
+    background: white;
+    height: 30px;
+    text-align: center;
 }
 
 .box{
@@ -32,8 +33,8 @@ header{
     transition: background-color 0.4s ease;
 }
 
-.positionReset{
-    float: right;
+.selected{
+    background: blue;
 }
 
 .messageDisplayFontSize{
