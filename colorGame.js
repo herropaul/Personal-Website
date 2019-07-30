@@ -1,13 +1,11 @@
 var colors = new Array(6);
 var box = document.getElementsByClassName("box");
 var header = document.querySelector("header");
-var goalColor = colors[randomIndex];
 var colorDisplay = document.getElementById("colorDisplay");
-colorDisplay.textContent = goalColor;
 var messageDisplay = document.querySelector("#message");
 var resetButton = document.querySelector("button");
-var hardBtn = document.getElementById("hardButton");
-var easyBtn = document.getElementById("easyButton");
+var easyBtn = document.getElementById("easyBtn");
+var hardBtn = document.getElementById("hardBtn");
 
 easyBtn.addEventListener("click", function(){
     hardBtn.classList.remove("selected");
@@ -68,6 +66,7 @@ hardBtn.addEventListener("click", function(){
 });
 
 
+
 // sets random rgb values to colors array
 for(var i = 0; i < colors.length; i++){
     var randomIndex = Math.floor(Math.random()*colors.length);
@@ -78,9 +77,10 @@ for(var i = 0; i < colors.length; i++){
     colors[i] = colVal;
 }
 
-goalColor = colors[randomIndex];
+var goalColor = colors[randomIndex];
 colorDisplay.textContent = goalColor;
 
+/*Reset function */
 function reset(){
     for(var i = 0; i < colors.length; i++){
         var randomIndex = Math.floor(Math.random()*colors.length);
@@ -94,7 +94,7 @@ function reset(){
     // displays color in box
     for(var i = 0; i < box.length; i++){
         box[i].style.backgroundColor = colors[i];
-        console.log(box[i].style.backgroundColor);
+        //console.log(box[i].style.backgroundColor);
     }
 
     goalColor = colors[randomIndex];
@@ -125,6 +125,7 @@ for(var i = 0; i < box.length; i++){
             messageDisplay.textContent = "You win!";
             header.style.backgroundColor = goalColor;
             header.classList.add("colorTransition");
+            resetButton.textContent = "Play Again?";
             for(var j = 0; j < box.length; j++){
                 box[j].style.backgroundColor = goalColor;
                 box[j].classList.add("colorTransition");
