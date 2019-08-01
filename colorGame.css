@@ -1,6 +1,7 @@
 body{
     background-color: rgb(58, 54, 54);
     font-family: 'Darker Grotesque', sans-serif;
+    color: white;
     margin: 0;
 }
 
@@ -23,6 +24,11 @@ h1{
     font-size: 200%;
 }
 
+#messageDisplay{
+    font-size: 300%;
+    
+}
+
 .menu{
     background: white;
     height: 30px;
@@ -39,7 +45,7 @@ h1{
 
 #container{
     margin: 0px auto;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 button{
@@ -70,6 +76,11 @@ button:hover{
     display: block;
     margin: 0 auto;
     width: fit-content;
+}
+
+#messageDisplay{
+    font-size: 300%;
+    font-weight: 700;
 }
 
 .colorTransition{
